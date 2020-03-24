@@ -1,0 +1,21 @@
+{
+    "name": "thinh-pt/url_helpe",
+    "description": "the first composer package",
+    "type": "php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "thinh168",
+            "email": "phuthinh.dkt@gmail.com"
+        }
+    ],
+    
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "demopackage\\UrlHelper\\": "src/"
+        }
+    }
+}
